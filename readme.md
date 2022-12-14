@@ -6,7 +6,7 @@
 - En la primera hoja se dibuja un mapa de la zona, convirtiendo primero las latitudes y longitudes dadas en la fuente a valores flotantes y de tipo geográfico
 - Se representan los barrios (*Neighbourhood*) y códigos postales (*Zipcode*), agrupándolos en 3 zonas: Norte, Sur y Centro
 
--En la segunda hoja se representa en un eje temporal el promedio de reseñas que reciben los alojamientos de cada Zona, a lo largo de los años. En la vista emergente también se muestra la valoración media que reciben para cada año
+- En la segunda hoja se representa en un eje temporal el promedio de reseñas que reciben los alojamientos de cada Zona, a lo largo de los años. En la vista emergente también se muestra la valoración media que reciben para cada año
 
 - La tercera hoja se dedica a analizar si la valoración media de cada barrio mejoró o no en el año 2017 con respecto al anterior. Para esto se crea primero un campo calculado para convertir el *Reviews Scores Value* en un campo que va de las 0 a 5 estrellas, que es como aparece en la web de airbnb. También se generan 2 campos calculados (*Valoraciones 2017* y *Valoraciones 2016*) y se hace una operación lógica para ver si la media de valoración de un año es o no superior a la del otro
 
