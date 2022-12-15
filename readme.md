@@ -1,6 +1,6 @@
 # Práctica Módulo Exploración y Visualización de Datos
 
-- Partiendo del dataset *airbnb-listings Madrid.csv* se hace un primer tratamiento de la fuente de datos eliminando items sin fecha de *Host since* y de *Neighbourhood*, así como aquellos que no sean de la ciudad de Madrid ni tengan su código postal (28...) 
+- Partiendo del dataset *airbnb-listings Madrid.csv* se hace un primer tratamiento de la fuente de datos eliminando items sin fecha de *Host since* y con datos nulos en *Neighbourhood*, así como aquellos que no sean de la ciudad de Madrid ni tengan su código postal (28...) 
 - También se ocultan aquellas columnas de URL, que no tienen utilidad para el análisis
 
 - En la primera hoja se dibuja un mapa de la zona, convirtiendo primero las latitudes y longitudes dadas en la fuente a valores flotantes y de tipo geográfico
@@ -16,5 +16,5 @@
 **Como conclusiones:**
 - Los alojamientos de Madrid tienen una valoración muy alta, superior a las 4/5 estrellas.
 - Se perciben diferencias entre la zona norte y centro con respecto al sur, teniendo el sur una puntuación media ligeramente inferior
-- A pesar de lo dicho, se observa que en muchos barrios céntricos la valoracion media empeora de un año a otro (**Ver Hoja 3**), lo que puede indicar un problema con las viviendas turísticas en el centro de Madrid
+- A pesar de lo dicho, se observa que en muchos barrios céntricos la valoracion media no mejora de un año a otro (**Ver Hoja 3**), lo que puede indicar un problema con las viviendas turísticas en el centro de Madrid
 - Todos estos promedios están contrastados en el sentido de que el nº medio de reseñas es considerable, así que no se cae en la "trampa" de que haya pocas reseñas pero con mucha/poca puntuación
